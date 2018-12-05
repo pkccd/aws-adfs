@@ -4,7 +4,7 @@ import click
 import lxml.etree as ET
 
 
-default_session_duration = 3600
+default_session_duration = 43200
 
 
 def extract(html):
