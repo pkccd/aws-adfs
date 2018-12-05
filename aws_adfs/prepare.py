@@ -66,7 +66,7 @@ def create_adfs_default_config(profile):
 
     # region: The default AWS region that this script will connect
     # to for all API calls
-    config.region = session.get_config_variable('region') or 'eu-central-1'
+    config.region = session.get_config_variable('region') or 'us-west-2'
 
     # aws cli profile to store config and access keys into
     config.profile = session.profile or 'default'
